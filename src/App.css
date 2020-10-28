@@ -1,0 +1,48 @@
+/* Responsive text */
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+/* Table */
+
+.pointer {
+  cursor: pointer;
+}
+
+.bordered {
+  border: 3px solid black !important;
+}
+
+.bordered:hover {
+  border-color: orange !important;
+  transition: border-color 0.3s;
+}
+
+.no-collapse {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.th-height {
+  height: 1vh;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+/* Fade in animation */
+
+.fade-in {
+  animation: fade-in 0.6s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
