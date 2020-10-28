@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "340b1eb703111ca0455f4c799bdcdc2f",
+    "revision": "85dc9b1d061347ce0e3ca286c7db6d4c",
     "url": "/wh2-jeopardy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wh2-jeopardy/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "7f99c343d628a15ba85b",
-    "url": "/wh2-jeopardy/static/css/main.7e5af586.chunk.css"
+    "revision": "2340b72be906ef36e1d1",
+    "url": "/wh2-jeopardy/static/css/main.050bd931.chunk.css"
   },
   {
     "revision": "380f2e69337ad97e4f79",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wh2-jeopardy/static/js/2.b6a4c79d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f99c343d628a15ba85b",
-    "url": "/wh2-jeopardy/static/js/main.2d94528f.chunk.js"
+    "revision": "2340b72be906ef36e1d1",
+    "url": "/wh2-jeopardy/static/js/main.ba53ee8f.chunk.js"
   },
   {
     "revision": "5ebe2af58c8c5276316a",
