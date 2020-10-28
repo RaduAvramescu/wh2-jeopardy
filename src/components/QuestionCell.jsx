@@ -15,16 +15,16 @@ export default class QuestionCell extends Component {
   render() {
     if (this.props.isAnswered)
       return (
-        <td className="col-2 align-middle m-0 p-0 bordered">
+        <td className="cell-width align-middle bordered">
           <div className="opacity-10">{this.props.question.value}</div>
         </td>
       );
     return (
       <td
-        className="col-2 align-middle m-0 p-0 bordered pointer"
+        className="cell-width align-middle bordered pointer"
         onClick={this.handleClick}
       >
-        <div>{this.props.question.value}</div>
+        <div className="">{this.props.question.value}</div>
       </td>
     );
   }

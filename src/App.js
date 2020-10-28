@@ -137,12 +137,12 @@ class App extends Component {
           <div className="container-fluid bg-light fade-in text-responsive">
             <table
               style={{ height: "90vh" }}
-              className="table text-center m-0 border-0 no-collapse"
+              className="table text-center m-0 no-collapse"
             >
-              <thead className="border-0">
+              <thead>
                 <CategoryContainer categories={this.state.categories} />
               </thead>
-              <tbody className="table-dark border-0">
+              <tbody className="table-dark">
                 <RowContainer
                   questions={this.state.questions}
                   onShowQuestion={this.handleHide}
