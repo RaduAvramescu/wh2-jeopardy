@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/wh2-jeopardy/static/css/main.050bd931.chunk.css",
-    "main.js": "/wh2-jeopardy/static/js/main.ba53ee8f.chunk.js",
-    "main.js.map": "/wh2-jeopardy/static/js/main.ba53ee8f.chunk.js.map",
+    "main.css": "/wh2-jeopardy/static/css/main.822fe329.chunk.css",
+    "main.js": "/wh2-jeopardy/static/js/main.1d9f1526.chunk.js",
+    "main.js.map": "/wh2-jeopardy/static/js/main.1d9f1526.chunk.js.map",
     "runtime-main.js": "/wh2-jeopardy/static/js/runtime-main.228e9ab5.js",
     "runtime-main.js.map": "/wh2-jeopardy/static/js/runtime-main.228e9ab5.js.map",
     "static/css/2.2a86faee.chunk.css": "/wh2-jeopardy/static/css/2.2a86faee.chunk.css",
-    "static/js/2.b6a4c79d.chunk.js": "/wh2-jeopardy/static/js/2.b6a4c79d.chunk.js",
-    "static/js/2.b6a4c79d.chunk.js.map": "/wh2-jeopardy/static/js/2.b6a4c79d.chunk.js.map",
+    "static/js/2.f5acc226.chunk.js": "/wh2-jeopardy/static/js/2.f5acc226.chunk.js",
+    "static/js/2.f5acc226.chunk.js.map": "/wh2-jeopardy/static/js/2.f5acc226.chunk.js.map",
     "index.html": "/wh2-jeopardy/index.html",
-    "precache-manifest.a6c196aec30308402dc4bb8c8106a9fc.js": "/wh2-jeopardy/precache-manifest.a6c196aec30308402dc4bb8c8106a9fc.js",
+    "precache-manifest.fc0651053c7f8cb30622c158def4a519.js": "/wh2-jeopardy/precache-manifest.fc0651053c7f8cb30622c158def4a519.js",
     "service-worker.js": "/wh2-jeopardy/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/wh2-jeopardy/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.050bd931.chunk.css.map": "/wh2-jeopardy/static/css/main.050bd931.chunk.css.map",
-    "static/js/2.b6a4c79d.chunk.js.LICENSE.txt": "/wh2-jeopardy/static/js/2.b6a4c79d.chunk.js.LICENSE.txt",
+    "static/css/main.822fe329.chunk.css.map": "/wh2-jeopardy/static/css/main.822fe329.chunk.css.map",
+    "static/js/2.f5acc226.chunk.js.LICENSE.txt": "/wh2-jeopardy/static/js/2.f5acc226.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/wh2-jeopardy/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.228e9ab5.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.b6a4c79d.chunk.js",
-    "static/css/main.050bd931.chunk.css",
-    "static/js/main.ba53ee8f.chunk.js"
+    "static/js/2.f5acc226.chunk.js",
+    "static/css/main.822fe329.chunk.css",
+    "static/js/main.1d9f1526.chunk.js"
   ]
 }
