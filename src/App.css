@@ -10,13 +10,13 @@
   cursor: pointer;
 }
 
-.bordered {
-  border: 3px solid black !important;
+td.bordered {
+  border: 3px solid black;
 }
 
-.bordered:hover {
-  border-color: orange !important;
-  transition: border-color 0.3s;
+td.bordered:hover {
+  border: 3px solid orange;
+  transition: border 0.3s;
 }
 
 .no-collapse {
@@ -24,17 +24,12 @@
   border-spacing: 0;
 }
 
-.th-height {
-  height: 1vh;
-}
-
 .opacity-10 {
   opacity: 0.1;
 }
 
 .cell-width {
-  width: 100%;
-  max-width: calc(100% / 5);
+  width: calc(100% / 5);
 }
 
 /* Fade in animation */
