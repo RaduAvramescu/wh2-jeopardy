@@ -6,8 +6,8 @@ export default class QuestionCell extends Component {
       "showQuestion",
       this.props.question.question,
       this.props.question.answer,
-      this.props.rowId,
-      this.props.id
+      this.props.category,
+      this.props.question.value
     );
     this.props.onAnswered(this.props.rowId, this.props.id);
   };

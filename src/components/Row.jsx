@@ -13,6 +13,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         question={props.questions[i]}
+        category={props.categories[i].value}
       />
     );
   }

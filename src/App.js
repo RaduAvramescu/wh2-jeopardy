@@ -36,7 +36,7 @@ class App extends Component {
     }
   };
 
-  handleHide = (name, question, answer) => {
+  handleHide = (name, question, answer, category, value) => {
     switch (name) {
       case "showPlayerForm":
         this.setState({ showPlayerForm: !this.state.showPlayerForm });
@@ -53,6 +53,8 @@ class App extends Component {
           showQuestion: !this.state.showQuestion,
           question,
           answer,
+          category,
+          value,
         });
         break;
       case "showAnswer":
@@ -145,6 +147,7 @@ class App extends Component {
               <tbody className="table-dark">
                 <RowContainer
                   questions={this.state.questions}
+                  categories={this.state.categories}
                   onShowQuestion={this.handleHide}
                   onAnswered={this.handleIsAnswered}
                 />
@@ -157,6 +160,8 @@ class App extends Component {
             onKeyPress={this.handleKeyPress}
             question={this.state.question}
             answer={this.state.answer}
+            category={this.state.category}
+            value={this.state.value}
             showAnswer={this.state.showAnswer}
           />
         )}

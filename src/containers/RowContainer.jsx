@@ -10,6 +10,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         questions={props.questions.row1}
+        categories={props.categories}
       />
       <Row
         key={2}
@@ -17,6 +18,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         questions={props.questions.row2}
+        categories={props.categories}
       />
       <Row
         key={3}
@@ -24,6 +26,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         questions={props.questions.row3}
+        categories={props.categories}
       />
       <Row
         key={4}
@@ -31,6 +34,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         questions={props.questions.row4}
+        categories={props.categories}
       />
       <Row
         key={5}
@@ -38,6 +42,7 @@ export default (props) => {
         onShowQuestion={props.onShowQuestion}
         onAnswered={props.onAnswered}
         questions={props.questions.row5}
+        categories={props.categories}
       />
     </React.Fragment>
   );
