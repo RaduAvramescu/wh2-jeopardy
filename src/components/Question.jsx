@@ -5,8 +5,8 @@ export default class Question extends Component {
     return (
       <div>
         <div>
-          <nav class="navbar navbar-dark bg-dark justify-content-around">
-            <span class="navbar-brand">
+          <nav className="navbar navbar-dark bg-dark justify-content-around">
+            <span className="navbar-brand">
               Continue <kbd className="text-dark bg-light">SPACE</kbd>
             </span>
             <span className="navbar-brand">

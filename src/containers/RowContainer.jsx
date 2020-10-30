@@ -11,6 +11,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         questions={props.questions.row1}
         categories={props.categories}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
       <Row
         key={2}
@@ -19,6 +20,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         questions={props.questions.row2}
         categories={props.categories}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
       <Row
         key={3}
@@ -27,6 +29,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         questions={props.questions.row3}
         categories={props.categories}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
       <Row
         key={4}
@@ -35,6 +38,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         questions={props.questions.row4}
         categories={props.categories}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
       <Row
         key={5}
@@ -43,6 +47,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         questions={props.questions.row5}
         categories={props.categories}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
     </React.Fragment>
   );

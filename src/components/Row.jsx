@@ -14,6 +14,7 @@ export default (props) => {
         onAnswered={props.onAnswered}
         question={props.questions[i]}
         category={props.categories[i].value}
+        onRandomizeQuestion={props.onRandomizeQuestion}
       />
     );
   }

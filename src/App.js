@@ -29,6 +29,39 @@ class App extends Component {
     showAnswer: false,
   };
 
+  handleRandomizeQuestion = (rowId, id) => {
+    const random = Math.floor(Math.random() * 5);
+    const row = `row${rowId}`;
+    const newQuestions = {
+      ...this.state.questions,
+      [row]: {
+        ...this.state.questions[row],
+        [id]: {
+          ...this.state.questions[row][id],
+          question: this.state.questions[row][id].pool[random].question,
+          answer: this.state.questions[row][id].pool[random].answer,
+        },
+      },
+    };
+
+    this.setState({ questions: newQuestions });
+  };
+
+  handleIsAnswered = (rowId, id) => {
+    const row = `row${rowId}`;
+    const newQuestions = {
+      ...this.state.questions,
+      [row]: {
+        ...this.state.questions[row],
+        [id]: {
+          ...this.state.questions[row][id],
+          isAnswered: true,
+        },
+      },
+    };
+    this.setState({ questions: newQuestions });
+  };
+
   handleKeyPress = (e) => {
     if (e.key === " " && this.state.showQuestion) {
       if (this.state.showAnswer) this.handleHide("showAnswer");
@@ -67,21 +100,6 @@ class App extends Component {
         console.log("Nothing to show/hide!");
         break;
     }
-  };
-
-  handleIsAnswered = (rowId, id) => {
-    const row = `row${rowId}`;
-    const newQuestions = {
-      ...this.state.questions,
-      [row]: {
-        ...this.state.questions[row],
-        [id]: {
-          ...this.state.questions[row][id],
-          isAnswered: true,
-        },
-      },
-    };
-    this.setState({ questions: newQuestions });
   };
 
   handleSubmit = (players) => {
@@ -150,6 +168,7 @@ class App extends Component {
                   categories={this.state.categories}
                   onShowQuestion={this.handleHide}
                   onAnswered={this.handleIsAnswered}
+                  onRandomizeQuestion={this.handleRandomizeQuestion}
                 />
               </tbody>
             </table>
