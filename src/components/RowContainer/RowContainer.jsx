@@ -13,10 +13,10 @@ const RowContainer = (props) => {
             <Row
               key={index + 1}
               id={index + 1}
-              onShowQuestion={props.onShowQuestion}
-              onAnswered={props.onAnswered}
               questions={props.questions[`row${index + 1}`]}
               categories={props.categories}
+              onShowQuestion={props.onShowQuestion}
+              onAnswered={props.onAnswered}
               onRandomizeQuestion={props.onRandomizeQuestion}
             />
           );

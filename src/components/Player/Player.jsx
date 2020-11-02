@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 export default class Player extends Component {
   onIncrement = () => {
-    this.props.onIncrement(this.props.player);
+    this.props.onModifyScore(this.props.player, 100);
   };
 
   onDecrement = () => {
-    this.props.onDecrement(this.props.player);
+    this.props.onModifyScore(this.props.player, -100);
   };
 
   getBadgeClasses = () => {

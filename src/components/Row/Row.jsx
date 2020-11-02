@@ -23,10 +23,10 @@ const Row = (props) => {
         id={i}
         rowId={props.id}
         isAnswered={props.questions[i].isAnswered}
-        onShowQuestion={props.onShowQuestion}
-        onAnswered={props.onAnswered}
         question={props.questions[i]}
         category={props.categories[i].value}
+        onShowQuestion={props.onShowQuestion}
+        onAnswered={props.onAnswered}
         onRandomizeQuestion={props.onRandomizeQuestion}
       />
     );

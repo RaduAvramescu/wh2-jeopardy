@@ -9,9 +9,8 @@ export default class Players extends Component {
           <Player
             key={player.id}
             id={player.id}
-            onIncrement={this.props.onIncrement}
-            onDecrement={this.props.onDecrement}
             player={player}
+            onModifyScore={this.props.onModifyScore}
           />
         ))}
       </div>

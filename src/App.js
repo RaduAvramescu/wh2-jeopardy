@@ -109,25 +109,13 @@ class App extends Component {
     this.handleHide("showTable");
   };
 
-  handleIncrement = (player) => {
+  handleModifyScore = (player, value) => {
     const newPlayers = this.state.players.map((p) =>
       p !== player
         ? p
         : {
             ...p,
-            value: player.value + 100,
-          }
-    );
-    this.setState({ players: newPlayers });
-  };
-
-  handleDecrement = (player) => {
-    const newPlayers = this.state.players.map((p) =>
-      p !== player
-        ? p
-        : {
-            ...p,
-            value: player.value - 100,
+            value: player.value + value,
           }
     );
     this.setState({ players: newPlayers });
@@ -145,8 +133,7 @@ class App extends Component {
         {this.state.showPlayers && (
           <Players
             players={this.state.players}
-            onIncrement={this.handleIncrement}
-            onDecrement={this.handleDecrement}
+            onModifyScore={this.handleModifyScore}
           />
         )}
         {this.state.showTable && (
@@ -167,12 +154,12 @@ class App extends Component {
         )}
         {this.state.showQuestion && (
           <Question
-            onKeyPress={this.handleKeyPress}
             question={this.state.question}
             answer={this.state.answer}
             category={this.state.category}
             value={this.state.value}
             showAnswer={this.state.showAnswer}
+            onKeyPress={this.handleKeyPress}
           />
         )}
       </div>
