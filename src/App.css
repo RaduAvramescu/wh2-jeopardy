@@ -6,30 +6,9 @@
 
 /* Table */
 
-.pointer {
-  cursor: pointer;
-}
-
-td.bordered {
-  border: 3px solid black;
-}
-
-td.bordered:hover {
-  border: 3px solid orange;
-  transition: border 0.3s;
-}
-
 .no-collapse {
   border-collapse: separate;
   border-spacing: 0;
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.cell-width {
-  width: calc(100% / 5);
 }
 
 /* Fade in animation */

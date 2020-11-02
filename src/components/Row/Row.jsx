@@ -1,5 +1,5 @@
 import React from "react";
-import QuestionCell from "./QuestionCell";
+import QuestionCell from "../QuestionCell/QuestionCell";
 
 export default (props) => {
   let cells = [];

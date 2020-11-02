@@ -1,0 +1,22 @@
+/* Cells */
+
+.pointer {
+  cursor: pointer;
+}
+
+td.bordered {
+  border: 3px solid black;
+}
+
+td.bordered:hover {
+  border: 3px solid orange;
+  transition: border 0.3s;
+}
+
+.cell-width {
+  width: calc(100% / 5);
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}

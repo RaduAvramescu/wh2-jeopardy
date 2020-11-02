@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Player from "./Player";
+import Player from "../Player/Player";
 
 export default class Players extends Component {
   render() {

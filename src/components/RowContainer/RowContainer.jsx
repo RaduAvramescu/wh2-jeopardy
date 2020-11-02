@@ -1,5 +1,5 @@
 import React from "react";
-import Row from "../components/Row";
+import Row from "../Row/Row";
 
 export default (props) => {
   return (

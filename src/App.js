@@ -2,8 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 
 import data from "./data/data.json";
-import { PlayerNameForm, Players, Question } from "./components";
-import { CategoryContainer, RowContainer } from "./containers";
+import {
+  PlayerNameForm,
+  Players,
+  Question,
+  CategoryContainer,
+  RowContainer,
+} from "./components";
 
 class App extends Component {
   state = {
