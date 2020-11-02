@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => (
+const CategoryContainer = (props) => (
   <tr>
     {props.categories.map((category) => (
       <th scope="col" className="cell-width align-middle" key={category.id}>
@@ -9,3 +9,5 @@ export default (props) => (
     ))}
   </tr>
 );
+
+export default CategoryContainer;

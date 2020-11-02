@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Row/Row";
 
-export default (props) => {
+const RowContainer = (props) => {
   return (
     <React.Fragment>
       <Row
@@ -52,3 +52,5 @@ export default (props) => {
     </React.Fragment>
   );
 };
+
+export default RowContainer;

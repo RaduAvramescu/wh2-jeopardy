@@ -1,7 +1,7 @@
 import React from "react";
 import QuestionCell from "../QuestionCell/QuestionCell";
 
-export default (props) => {
+const Row = (props) => {
   let cells = [];
   for (let i = 0; i < 5; i++) {
     cells.push(
@@ -20,3 +20,5 @@ export default (props) => {
   }
   return <tr>{cells}</tr>;
 };
+
+export default Row;
