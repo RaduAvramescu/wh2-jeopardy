@@ -1,2 +1,0 @@
-.text-responsive{font-size:calc(100% + 1vw + 1vh)}.pointer{cursor:pointer}td.bordered{border:3px solid #000}td.bordered:hover{border:3px solid orange;transition:border .3s}.no-collapse{border-collapse:separate;border-spacing:0}.opacity-10{opacity:.1}.cell-width{width:20%}.fade-in{-webkit-animation:fade-in .6s;animation:fade-in .6s}@-webkit-keyframes fade-in{0%{opacity:0}to{opacity:1}}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
-/*# sourceMappingURL=main.70f50274.chunk.css.map */
