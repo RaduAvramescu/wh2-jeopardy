@@ -1,11 +1,24 @@
 import React from "react";
-import QuestionCell from "../QuestionCell/QuestionCell";
+import Cell from "../Cell/Cell";
 
 const Row = (props) => {
   let cells = [];
+
+  if (props.isHeading) {
+    for (let i = 0; i < 5; i++) {
+      cells.push(
+        <Cell
+          category={props.categories[i].value}
+          isHeading={props.isHeading}
+        />
+      );
+    }
+    return <tr>{cells}</tr>;
+  }
+
   for (let i = 0; i < 5; i++) {
     cells.push(
-      <QuestionCell
+      <Cell
         key={i}
         id={i}
         rowId={props.id}

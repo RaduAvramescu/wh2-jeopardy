@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styles from "./QuestionCell.module.css";
+import styles from "./Cell.module.css";
 
-export default class QuestionCell extends Component {
+export default class Cell extends Component {
   handleClick = () => {
     this.props.onRandomizeQuestion(this.props.rowId, this.props.id);
     setTimeout(() => {
@@ -17,6 +17,17 @@ export default class QuestionCell extends Component {
   };
 
   render() {
+    if (this.props.isHeading)
+      return (
+        <th
+          scope="col"
+          className={`${styles[`cell-width`]} align-bottom`}
+          key={this.props.id}
+        >
+          {this.props.category}
+        </th>
+      );
+
     if (this.props.isAnswered)
       return (
         <td
@@ -27,6 +38,7 @@ export default class QuestionCell extends Component {
           </div>
         </td>
       );
+
     return (
       <td
         className={`${styles[`cell-width`]} ${styles.bordered} ${

@@ -1,0 +1,5 @@
+/* Cells */
+
+.cell-width {
+  width: calc(100% / 5);
+}

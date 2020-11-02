@@ -2,13 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import data from "./data/data.json";
-import {
-  PlayerNameForm,
-  Players,
-  Question,
-  CategoryContainer,
-  RowContainer,
-} from "./components";
+import { PlayerNameForm, Players, Question, RowContainer } from "./components";
 
 class App extends Component {
   state = {
@@ -161,18 +155,13 @@ class App extends Component {
               style={{ height: "90vh" }}
               className="table text-center m-0 no-collapse"
             >
-              <thead>
-                <CategoryContainer categories={this.state.categories} />
-              </thead>
-              <tbody className="table-dark">
-                <RowContainer
-                  questions={this.state.questions}
-                  categories={this.state.categories}
-                  onShowQuestion={this.handleHide}
-                  onAnswered={this.handleIsAnswered}
-                  onRandomizeQuestion={this.handleRandomizeQuestion}
-                />
-              </tbody>
+              <RowContainer
+                questions={this.state.questions}
+                categories={this.state.categories}
+                onShowQuestion={this.handleHide}
+                onAnswered={this.handleIsAnswered}
+                onRandomizeQuestion={this.handleRandomizeQuestion}
+              />
             </table>
           </div>
         )}
