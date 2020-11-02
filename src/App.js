@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import data from "./data/data.json";
 import "./App.css";
-import PlayerNameForm from "./components/playerNameForm";
-import Players from "./components/players";
-import CategoryContainer from "./containers/CategoryContainer";
-import RowContainer from "./containers/RowContainer";
-import Question from "./components/Question";
+
+import data from "./data/data.json";
+import { PlayerNameForm, Players, Question } from "./components";
+import { CategoryContainer, RowContainer } from "./containers";
 
 class App extends Component {
   state = {
@@ -17,7 +15,7 @@ class App extends Component {
     categories: [
       { id: 1, value: "Stats" },
       { id: 2, value: "Abilities" },
-      { id: 3, value: "Match-Ups" },
+      { id: 3, value: "Spells" },
       { id: 4, value: "Maps" },
       { id: 5, value: "Tournaments" },
     ],
