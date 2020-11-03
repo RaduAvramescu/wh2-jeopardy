@@ -8,6 +8,8 @@ const Row = (props) => {
     for (let i = 0; i < 5; i++) {
       cells.push(
         <Cell
+          key={i}
+          id={i}
           category={props.categories[i].value}
           isHeading={props.isHeading}
         />

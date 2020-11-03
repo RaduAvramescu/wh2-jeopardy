@@ -6,8 +6,8 @@ export default class PlayerNameForm extends Component {
 
   onSubmit = (event) => {
     const players = [
-      { name: this.player1.current.value },
-      { name: this.player2.current.value },
+      { id: 1, name: this.player1.current.value },
+      { id: 2, name: this.player2.current.value },
     ];
     this.props.onSubmit(players);
     event.preventDefault();

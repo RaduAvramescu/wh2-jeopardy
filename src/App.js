@@ -6,10 +6,6 @@ import { PlayerNameForm, Players, Question, RowContainer } from "./components";
 
 class App extends Component {
   state = {
-    players: [
-      { id: 1, value: 0, name: "Player 1" },
-      { id: 2, value: 0, name: "Player 2" },
-    ],
     categories: [
       { id: 1, value: "Stats" },
       { id: 2, value: "Abilities" },
@@ -58,8 +54,8 @@ class App extends Component {
     this.setState({ questions: newQuestions });
   };
 
-  handleKeyPress = (e) => {
-    if (e.key === " " && this.state.showQuestion) {
+  handleKeyPress = (event) => {
+    if (event.key === " " && this.state.showQuestion) {
       if (this.state.showAnswer) this.handleHide("showAnswer");
       else this.handleHide("showAnswer");
     }
@@ -99,9 +95,12 @@ class App extends Component {
   };
 
   handleSubmit = (players) => {
-    const newPlayers = this.state.players.map((p) => ({
-      ...p,
-      name: players[`${p.id - 1}`].name,
+    const newPlayers = players.map((player) => ({
+      ...player,
+      key: player.id,
+      id: player.id,
+      name: player.name,
+      value: 0,
     }));
     this.setState({ players: newPlayers });
     this.handleHide("showPlayerForm");
