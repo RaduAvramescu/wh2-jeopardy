@@ -1,0 +1,7 @@
+[
+  { "id": 1, "value": "Stats" },
+  { "id": 2, "value": "Abilities" },
+  { "id": 3, "value": "Spells" },
+  { "id": 4, "value": "Maps" },
+  { "id": 5, "value": "Tournaments" }
+]

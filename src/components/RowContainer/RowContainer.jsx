@@ -1,23 +1,30 @@
 import React from "react";
+
 import Row from "../Row/Row";
 
-const RowContainer = (props) => {
+const RowContainer = ({
+  categories,
+  questions,
+  onShowQuestion,
+  onAnswered,
+  onRandomizeQuestion,
+}) => {
   return (
     <React.Fragment>
       <thead>
-        <Row categories={props.categories} isHeading={true} />
+        <Row categories={categories} isHeading={true} />
       </thead>
       <tbody className="table-dark">
-        {props.categories.map((row, index) => {
+        {categories.map((row, index) => {
           return (
             <Row
               key={index + 1}
               id={index + 1}
-              questions={props.questions[`row${index + 1}`]}
-              categories={props.categories}
-              onShowQuestion={props.onShowQuestion}
-              onAnswered={props.onAnswered}
-              onRandomizeQuestion={props.onRandomizeQuestion}
+              questions={questions[`row${index + 1}`]}
+              categories={categories}
+              onShowQuestion={onShowQuestion}
+              onAnswered={onAnswered}
+              onRandomizeQuestion={onRandomizeQuestion}
             />
           );
         })}

@@ -1,17 +1,26 @@
 import React from "react";
+
 import Cell from "../Cell/Cell";
 
-const Row = (props) => {
+const Row = ({
+  isHeading,
+  categories,
+  id,
+  questions,
+  onShowQuestion,
+  onAnswered,
+  onRandomizeQuestion,
+}) => {
   let cells = [];
 
-  if (props.isHeading) {
+  if (isHeading) {
     for (let i = 0; i < 5; i++) {
       cells.push(
         <Cell
           key={i}
           id={i}
-          category={props.categories[i].value}
-          isHeading={props.isHeading}
+          category={categories[i].value}
+          isHeading={isHeading}
         />
       );
     }
@@ -23,13 +32,13 @@ const Row = (props) => {
       <Cell
         key={i}
         id={i}
-        rowId={props.id}
-        isAnswered={props.questions[i].isAnswered}
-        question={props.questions[i]}
-        category={props.categories[i].value}
-        onShowQuestion={props.onShowQuestion}
-        onAnswered={props.onAnswered}
-        onRandomizeQuestion={props.onRandomizeQuestion}
+        rowId={id}
+        isAnswered={questions[i].isAnswered}
+        question={questions[i]}
+        category={categories[i].value}
+        onShowQuestion={onShowQuestion}
+        onAnswered={onAnswered}
+        onRandomizeQuestion={onRandomizeQuestion}
       />
     );
   }

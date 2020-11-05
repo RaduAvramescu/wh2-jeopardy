@@ -1,41 +1,48 @@
 import React, { Component } from "react";
+
 import styles from "./Cell.module.css";
 
 export default class Cell extends Component {
   handleClick = () => {
-    this.props.onRandomizeQuestion(this.props.rowId, this.props.id);
+    const {
+      onRandomizeQuestion,
+      onShowQuestion,
+      onAnswered,
+      category,
+      rowId,
+      id,
+    } = this.props;
+
+    onRandomizeQuestion(rowId, id);
     setTimeout(() => {
-      this.props.onShowQuestion(
-        "showQuestion",
-        this.props.question.question,
-        this.props.question.answer,
-        this.props.category,
-        this.props.question.value
-      );
-      this.props.onAnswered(this.props.rowId, this.props.id);
+      const {
+        question: { question, answer, value },
+      } = this.props;
+      onShowQuestion("showQuestion", question, answer, category, value);
+      onAnswered(rowId, id);
     }, 100);
   };
 
   render() {
-    if (this.props.isHeading)
+    const { question, category, id, isHeading, isAnswered } = this.props;
+
+    if (isHeading)
       return (
         <th
           scope="col"
           className={`${styles[`cell-width`]} align-bottom`}
-          key={this.props.id}
+          key={id}
         >
-          {this.props.category}
+          {category}
         </th>
       );
 
-    if (this.props.isAnswered)
+    if (isAnswered)
       return (
         <td
           className={`${styles[`cell-width`]} ${styles.bordered} align-middle`}
         >
-          <div className={`${styles[`opacity-10`]}`}>
-            {this.props.question.value}
-          </div>
+          <div className={`${styles[`opacity-10`]}`}>{question.value}</div>
         </td>
       );
 
@@ -46,7 +53,7 @@ export default class Cell extends Component {
         } align-middle`}
         onClick={this.handleClick}
       >
-        <div>{this.props.question.value}</div>
+        <div>{question.value}</div>
       </td>
     );
   }

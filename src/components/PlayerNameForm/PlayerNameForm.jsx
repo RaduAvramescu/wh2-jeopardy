@@ -5,11 +5,12 @@ export default class PlayerNameForm extends Component {
   player2 = React.createRef();
 
   onSubmit = (event) => {
+    const { onSubmit } = this.props;
     const players = [
       { id: 1, name: this.player1.current.value },
       { id: 2, name: this.player2.current.value },
     ];
-    this.props.onSubmit(players);
+    onSubmit(players);
     event.preventDefault();
   };
 

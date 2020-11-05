@@ -1,19 +1,16 @@
 import React, { Component } from "react";
+
 import "./App.css";
 
-import data from "./data/data.json";
+import categoriesData from "./data/categoriesData.json";
+import questionsData from "./data/questionsData.json";
+
 import { PlayerNameForm, Players, Question, RowContainer } from "./components";
 
 class App extends Component {
   state = {
-    categories: [
-      { id: 1, value: "Stats" },
-      { id: 2, value: "Abilities" },
-      { id: 3, value: "Spells" },
-      { id: 4, value: "Maps" },
-      { id: 5, value: "Tournaments" },
-    ],
-    questions: data,
+    categories: categoriesData,
+    questions: questionsData,
     showPlayerForm: true,
     showPlayers: false,
     showTable: false,
@@ -95,6 +92,7 @@ class App extends Component {
   };
 
   handleSubmit = (players) => {
+    console.log(this.state.categories);
     const newPlayers = players.map((player) => ({
       ...player,
       key: player.id,

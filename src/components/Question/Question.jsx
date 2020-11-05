@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 export default class Question extends Component {
   render() {
+    const { category, value, question, showAnswer, answer } = this.props;
     return (
       <div>
         <div>
@@ -10,7 +11,7 @@ export default class Question extends Component {
               Continue <kbd className="text-dark bg-light">SPACE</kbd>
             </span>
             <span className="navbar-brand">
-              {this.props.category} for {this.props.value}
+              {category} for {value}
             </span>
           </nav>
         </div>
@@ -19,11 +20,11 @@ export default class Question extends Component {
           className="container-fluid text-responsive fade-in"
         >
           <div className="col-12 fade-in text-center mb-5 mt-5 pt-5">
-            {this.props.question}
+            {question}
           </div>
-          {this.props.showAnswer && (
+          {showAnswer && (
             <div className="col-12 fade-in text-center mb-5 mt-5 pt-5">
-              {this.props.answer}
+              {answer}
             </div>
           )}
         </div>
@@ -32,10 +33,12 @@ export default class Question extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener("keydown", this.props.onKeyPress, false);
+    const { onKeyPress } = this.props;
+    window.addEventListener("keydown", onKeyPress, false);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("keydown", this.props.onKeyPress, false);
+    const { onKeyPress } = this.props;
+    window.removeEventListener("keydown", onKeyPress, false);
   }
 }
