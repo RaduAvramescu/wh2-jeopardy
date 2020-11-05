@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/wh2-jeopardy/static/css/main.7efc926f.chunk.css",
-    "main.js": "/wh2-jeopardy/static/js/main.439cddbf.chunk.js",
-    "main.js.map": "/wh2-jeopardy/static/js/main.439cddbf.chunk.js.map",
+    "main.js": "/wh2-jeopardy/static/js/main.3440fe4b.chunk.js",
+    "main.js.map": "/wh2-jeopardy/static/js/main.3440fe4b.chunk.js.map",
     "runtime-main.js": "/wh2-jeopardy/static/js/runtime-main.c1289592.js",
     "runtime-main.js.map": "/wh2-jeopardy/static/js/runtime-main.c1289592.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/wh2-jeopardy/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.763c8bfe.chunk.js": "/wh2-jeopardy/static/js/2.763c8bfe.chunk.js",
-    "static/js/2.763c8bfe.chunk.js.map": "/wh2-jeopardy/static/js/2.763c8bfe.chunk.js.map",
+    "static/js/2.515889d9.chunk.js": "/wh2-jeopardy/static/js/2.515889d9.chunk.js",
+    "static/js/2.515889d9.chunk.js.map": "/wh2-jeopardy/static/js/2.515889d9.chunk.js.map",
     "index.html": "/wh2-jeopardy/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/wh2-jeopardy/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.7efc926f.chunk.css.map": "/wh2-jeopardy/static/css/main.7efc926f.chunk.css.map",
-    "static/js/2.763c8bfe.chunk.js.LICENSE.txt": "/wh2-jeopardy/static/js/2.763c8bfe.chunk.js.LICENSE.txt"
+    "static/js/2.515889d9.chunk.js.LICENSE.txt": "/wh2-jeopardy/static/js/2.515889d9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c1289592.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.763c8bfe.chunk.js",
+    "static/js/2.515889d9.chunk.js",
     "static/css/main.7efc926f.chunk.css",
-    "static/js/main.439cddbf.chunk.js"
+    "static/js/main.3440fe4b.chunk.js"
   ]
 }
