@@ -10,7 +10,7 @@
 
 This is the repository for my WH2 Jeopardy project.
 
-Information about what Jeopardy is can be found here: [https://en.wikipedia.org/wiki/Jeopardy!]https://en.wikipedia.org/wiki/Jeopardy!
+Information about what Jeopardy is can be found here: https://en.wikipedia.org/wiki/Jeopardy!
 
 ## Technologies
 
