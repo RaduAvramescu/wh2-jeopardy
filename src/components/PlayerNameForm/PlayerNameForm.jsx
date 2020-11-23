@@ -23,6 +23,7 @@ export default class PlayerNameForm extends Component {
               <div className="form-group form-group-lg col-md-3 m-2 ">
                 <label htmlFor="player1">Player 1</label>
                 <input
+                  id="player1"
                   type="text"
                   ref={this.player1}
                   className="form-control input-lg"
@@ -31,8 +32,9 @@ export default class PlayerNameForm extends Component {
                 />
               </div>
               <div className="form-group col-md-3 m-2">
-                <label htmlFor="player1">Player 2</label>
+                <label htmlFor="player2">Player 2</label>
                 <input
+                  id="player2"
                   type="text"
                   ref={this.player2}
                   className="form-control input-lg"
