@@ -34,7 +34,7 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "Which stats does Grimgor affect with 'You're Next!'?",
+          "question": "Which stats does Grimgor affect with You're Next?",
           "answer": "Melee attack, speed and melee defense."
         },
         {
@@ -63,25 +63,19 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "What are all the Lore of Light spells?",
-          "answer": "Banishment, Birona's Timewarp, Light of Battle, Net of Amyntok, Pha's Protection, Shem's Burning Gaze."
+          "question": "What is the mana cost of Gaze of Nagash?",
+          "answer": "7."
         },
         {
-          "question": "What are all the Lore of Death spells?",
-          "answer": "Aspect of the Dread Knight, Doom & Darkness, Soulblight, Spirit Leech, The Fate of Bjuna, The Purple Sun of Xereus."
+          "question": "What is the mana cost of Invocation of Nehek?",
+          "answer": "6."
         },
+        { "question": "What is the mana cost of Fireball?", "answer": "5." },
         {
-          "question": "What are all the Lore of Fire spells?",
-          "answer": "Cascading Fire Cloak, Fireball, Flame Storm, Flaming Sword of Rhuin, Piercing Bolts of Burning, The Burning Head."
+          "question": "What is the mana cost of The Burning Head?",
+          "answer": "10."
         },
-        {
-          "question": "What are all the Lore of Life spells?",
-          "answer": "Awakening of the Wood, Earth Blood, Flesh to Stone, Regrowth, Shield of Thorns, The Dwellers Below."
-        },
-        {
-          "question": "What are all the Lore of Vampires spells?",
-          "answer": "Curse of Years, Gaze of Nagash, Invocation of Nehek, Raise Dead, Vanhel's Danse Macabre, Wind of Death."
-        }
+        { "question": "What is the mana cost of Apotheosis?", "answer": "5." }
       ]
     },
     {
@@ -204,19 +198,25 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "What is the mana cost of Gaze of Nagash?",
-          "answer": "7."
+          "question": "What are all the Lore of Light spells?",
+          "answer": "Banishment, Birona's Timewarp, Light of Battle, Net of Amyntok, Pha's Protection, Shem's Burning Gaze."
         },
         {
-          "question": "What is the mana cost of Invocation of Nehek?",
-          "answer": "6."
+          "question": "What are all the Lore of Death spells?",
+          "answer": "Aspect of the Dread Knight, Doom & Darkness, Soulblight, Spirit Leech, The Fate of Bjuna, The Purple Sun of Xereus."
         },
-        { "question": "What is the mana cost of Fireball?", "answer": "5" },
         {
-          "question": "What is the mana cost of The Burning Head?",
-          "answer": "10"
+          "question": "What are all the Lore of Fire spells?",
+          "answer": "Cascading Fire Cloak, Fireball, Flame Storm, Flaming Sword of Rhuin, Piercing Bolts of Burning, The Burning Head."
         },
-        { "question": "What is the mana cost of Apotheosis?", "answer": "5." }
+        {
+          "question": "What are all the Lore of Life spells?",
+          "answer": "Awakening of the Wood, Earth Blood, Flesh to Stone, Regrowth, Shield of Thorns, The Dwellers Below."
+        },
+        {
+          "question": "What are all the Lore of Vampires spells?",
+          "answer": "Curse of Years, Gaze of Nagash, Invocation of Nehek, Raise Dead, Vanhel's Danse Macabre, Wind of Death."
+        }
       ]
     },
     {
@@ -235,7 +235,7 @@
           "answer": "Yes."
         },
         {
-          "question": "What stats does The Sword of Couronne affect and how? ",
+          "question": "What stats does The Sword of Couronne affect and how?",
           "answer": "The Sword of Couronne decreases melee defence and armour of enemy units in an Area of Effect."
         },
         {
@@ -261,15 +261,15 @@
           "answer": "FlyingTaco."
         },
         {
-          "question": "Who won Faction Wars - March 2020?",
+          "question": "Who won Faction Wars - March 2020 and as what faction?",
           "answer": "Hadres (Skaven)."
         },
         {
-          "question": "Who won Faction Wars - October 2020?",
+          "question": "Who won Faction Wars - October 2020 and as what faction?",
           "answer": "Enticity (Vampire Coast)."
         },
         {
-          "question": "Who won Faction Wars - May 2020?",
+          "question": "Who won Faction Wars - May 2020 and as what faction?",
           "answer": "Enticity (Vampire Coast)."
         }
       ]
@@ -371,24 +371,24 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "How does Durthu's Sword of Daith work?",
+          "question": "What are the exact effects of Durthu's Sword of Daith?",
           "answer": "It decreases armour by 30 and causes damage to enemy units in an Area of Effect."
         },
         {
-          "question": "How does Repanse's The Sword of Lyonesse work?",
+          "question": "What are the exact effects of Repanse's The Sword of Lyonesse?",
           "answer": "The Sword of Lyonesse increases base weapon damage by 50%, armour piercing weapon damage by 50% and melee attack by 40."
         },
         {
-          "question": "What stats does Wulfrik the Wanderer's Sword of Torgald affect and what is the duration?",
-          "answer": "Sword of Torgald increases base weapon damage by 90% for 44 seconds."
+          "question": "What are teh exact effects of Wulfrik the Wanderer's Sword of Torgald?",
+          "answer": "Sword of Torgald increases base weapon damage by 90%."
         },
         {
-          "question": "How does Flaming Axe of Cormac work?",
+          "question": "How does Flaming Axe of Cormac work and what are its exact effects?",
           "answer": "Flaming Axe of Cormac imbues fire damage, increases base weapon damage by 22% and melee attack by 9. It's disabled if leadership is lower than 50%."
         },
         {
-          "question": "What are the effects and duration of Skull Wand of Kaloth?",
-          "answer": "Skull Wand of Kaloth increases base weapon damage by 60%, melee attack by 24, and imbues -16 leadership for 10 seconds. The duration is 27 seconds."
+          "question": "What are the exact effects of Skull Wand of Kaloth?",
+          "answer": "Skull Wand of Kaloth increases base weapon damage by 60%, melee attack by 24, and imbues -16 leadership for 10 seconds."
         }
       ]
     },
@@ -586,7 +586,7 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "How many phases are there for the Rage unit ability, and what effects does each phase have?",
+          "question": "How many phases are there for the Rage unit ability, and what exact effects does each phase have?",
           "answer": "Stage 1 increases leadership, stage 2 increases leadership and physical resistance, and stage 3 increases leadership, physical resistance and melee attack."
         },
         {
