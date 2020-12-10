@@ -7,7 +7,10 @@
       "answer": "Answer1",
       "isAnswered": false,
       "pool": [
-        { "question": "Row1 Cell1 Question1", "answer": "Row1 Cell1 Answer1" },
+        {
+          "question": "Which non-unbreakable lord has the highest leadership?",
+          "answer": "Sigvald."
+        },
         { "question": "Row1 Cell1 Question2", "answer": "Row1 Cell1 Answer2" },
         { "question": "Row1 Cell1 Question3", "answer": "Row1 Cell1 Answer3" },
         { "question": "Row1 Cell1 Question4", "answer": "Row1 Cell1 Answer4" },
@@ -21,7 +24,10 @@
       "answer": "Answer2",
       "isAnswered": false,
       "pool": [
-        { "question": "Row1 Cell2 Question1", "answer": "Row1 Cell2 Answer1" },
+        {
+          "question": "Which stats does Grimgor affect with 'You're Next!'?",
+          "answer": "Melee attack, speed and melee defense."
+        },
         { "question": "Row1 Cell2 Question2", "answer": "Row1 Cell2 Answer2" },
         { "question": "Row1 Cell2 Question3", "answer": "Row1 Cell2 Answer3" },
         { "question": "Row1 Cell2 Question4", "answer": "Row1 Cell2 Answer4" },
@@ -35,11 +41,26 @@
       "answer": "Answer3",
       "isAnswered": false,
       "pool": [
-        { "question": "Row1 Cell3 Question1", "answer": "Row1 Cell3 Answer1" },
-        { "question": "Row1 Cell3 Question2", "answer": "Row1 Cell3 Answer2" },
-        { "question": "Row1 Cell3 Question3", "answer": "Row1 Cell3 Answer3" },
-        { "question": "Row1 Cell3 Question4", "answer": "Row1 Cell3 Answer4" },
-        { "question": "Row1 Cell3 Question5", "answer": "Row1 Cell3 Answer5" }
+        {
+          "question": "What are all the Lore of Light spells?",
+          "answer": "Banishment, Birona's Timewarp, Light of Battle, Net of Amyntok, Pha's Protection, Shem's Burning Gaze."
+        },
+        {
+          "question": "What are all the Lore of Death spells?",
+          "answer": "Aspect of the Dread Knight, Doom & Darkness, Soulblight, Spirit Leech, The Fate of Bjuna, The Purple Sun of Xereus."
+        },
+        {
+          "question": "What are all the Lore of Fire spells?",
+          "answer": "Cascading Fire Cloak, Fireball, Flame Storm, Flaming Sword of Rhuin, Piercing Bolts of Burning, The Burning Head."
+        },
+        {
+          "question": "What are all the Lore of Life spells?",
+          "answer": "Awakening of the Wood, Earth Blood, Flesh to Stone, Regrowth, Shield of Thorns, The Dwellers Below."
+        },
+        {
+          "question": "What are all the Lore of Vampires spells?",
+          "answer": "Curse of Years, Gaze of Nagash, Invocation of Nehek, Raise Dead, Vanhel's Danse Macabre, Wind of Death."
+        }
       ]
     },
     {
@@ -63,11 +84,26 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Row1 Cell5 Question1", "answer": "Row1 Cell5 Answer1" },
-        { "question": "Row1 Cell5 Question2", "answer": "Row1 Cell5 Answer2" },
-        { "question": "Row1 Cell5 Question3", "answer": "Row1 Cell5 Answer3" },
-        { "question": "Row1 Cell5 Question4", "answer": "Row1 Cell5 Answer4" },
-        { "question": "Row1 Cell5 Question5", "answer": "Row1 Cell5 Answer5" }
+        {
+          "question": "Who won Everchosen Invitational 7?",
+          "answer": "Fisstech."
+        },
+        {
+          "question": "Who won Everchosen Invitational 1?",
+          "answer": "Gobbo King."
+        },
+        {
+          "question": "Who won Everchosen Invitational 2?",
+          "answer": "TlaxtlanSoothsayer."
+        },
+        {
+          "question": "Who won Everchosen Invitational 5?",
+          "answer": "Felkon."
+        },
+        {
+          "question": "Who won Everchosen Invitational 6?",
+          "answer": "Aerocrastic."
+        }
       ]
     }
   ],
@@ -107,11 +143,20 @@
       "answer": "Answer3",
       "isAnswered": false,
       "pool": [
-        { "question": "Row2 Cell3 Question1", "answer": "Row2 Cell3 Answer1" },
-        { "question": "Row2 Cell3 Question2", "answer": "Row2 Cell3 Answer2" },
-        { "question": "Row2 Cell3 Question3", "answer": "Row2 Cell3 Answer3" },
-        { "question": "Row2 Cell3 Question4", "answer": "Row2 Cell3 Answer4" },
-        { "question": "Row2 Cell3 Question5", "answer": "Row2 Cell3 Answer5" }
+        {
+          "question": "What is the mana cost of Gaze of Nagash?",
+          "answer": "7."
+        },
+        {
+          "question": "What is the mana cost of Invocation of Nehek?",
+          "answer": "6."
+        },
+        { "question": "What is the mana cost of Fireball?", "answer": "5" },
+        {
+          "question": "What is the mana cost of The Burning Head?",
+          "answer": "10"
+        },
+        { "question": "What is the mana cost of Apotheosis?", "answer": "5." }
       ]
     },
     {
@@ -135,11 +180,23 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Row2 Cell5 Question1", "answer": "Row2 Cell5 Answer1" },
-        { "question": "Row2 Cell5 Question2", "answer": "Row2 Cell5 Answer2" },
-        { "question": "Row2 Cell5 Question3", "answer": "Row2 Cell5 Answer3" },
-        { "question": "Row2 Cell5 Question4", "answer": "Row2 Cell5 Answer4" },
-        { "question": "Row2 Cell5 Question5", "answer": "Row2 Cell5 Answer5" }
+        { "question": "Who won HWL Season 6 Playoffs?", "answer": "Felkon." },
+        {
+          "question": "Who won HWL Season 5 Playoffs?",
+          "answer": "FlyingTaco."
+        },
+        {
+          "question": "Who won Faction Wars - March 2020?",
+          "answer": "Hadres (Skaven)."
+        },
+        {
+          "question": "Who won Faction Wars - October 2020?",
+          "answer": "Enticity (Vampire Coast)."
+        },
+        {
+          "question": "Who won Faction Wars - May 2020?",
+          "answer": "Enticity (Vampire Coast)."
+        }
       ]
     }
   ],
@@ -151,11 +208,26 @@
       "answer": "Answer1",
       "isAnswered": false,
       "pool": [
-        { "question": "Row3 Cell1 Question1", "answer": "Row3 Cell1 Answer1" },
-        { "question": "Row3 Cell1 Question2", "answer": "Row3 Cell1 Answer2" },
-        { "question": "Row3 Cell1 Question3", "answer": "Row3 Cell1 Answer3" },
-        { "question": "Row3 Cell1 Question4", "answer": "Row3 Cell1 Answer4" },
-        { "question": "Row3 Cell1 Question5", "answer": "Row3 Cell1 Answer5" }
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        },
+        {
+          "question": "",
+          "answer": ""
+        }
       ]
     },
     {
@@ -179,11 +251,26 @@
       "answer": "Answer3",
       "isAnswered": false,
       "pool": [
-        { "question": "Row3 Cell3 Question1", "answer": "Row3 Cell3 Answer1" },
-        { "question": "Row3 Cell3 Question2", "answer": "Row3 Cell3 Answer2" },
-        { "question": "Row3 Cell3 Question3", "answer": "Row3 Cell3 Answer3" },
-        { "question": "Row3 Cell3 Question4", "answer": "Row3 Cell3 Answer4" },
-        { "question": "Row3 Cell3 Question5", "answer": "Row3 Cell3 Answer5" }
+        {
+          "question": "What is the projectile base damage of Fireball Upgraded?",
+          "answer": "350."
+        },
+        {
+          "question": "What is the projectile armour piercing damage of Shem's Burning Gaze?",
+          "answer": "50."
+        },
+        {
+          "question": "What is the projectile base damage of Vindictive Glare?",
+          "answer": "65."
+        },
+        {
+          "question": "What is the projectile base damage of The Amber Spear?",
+          "answer": "150."
+        },
+        {
+          "question": "Which spell cannot miscast when overcast?",
+          "answer": "The Dreaded Thirteenth."
+        }
       ]
     },
     {
@@ -207,11 +294,20 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Row3 Cell5 Question1", "answer": "Row3 Cell5 Answer1" },
-        { "question": "Row3 Cell5 Question2", "answer": "Row3 Cell5 Answer2" },
-        { "question": "Row3 Cell5 Question3", "answer": "Row3 Cell5 Answer3" },
-        { "question": "Row3 Cell5 Question4", "answer": "Row3 Cell5 Answer4" },
-        { "question": "Row3 Cell5 Question5", "answer": "Row3 Cell5 Answer5" }
+        {
+          "question": "Who won Steel Championship Series II?",
+          "answer": "Felkon."
+        },
+        { "question": "Who won MS Paint Wars #3?", "answer": "Crabling." },
+        { "question": "Who won Never-Chosen?", "answer": "SHOWtime." },
+        {
+          "question": "Who won Death Before Dishonour Season 4?",
+          "answer": "Enticity."
+        },
+        {
+          "question": "Who won Rise of the Mortarchs Season 1?",
+          "answer": "Imperator."
+        }
       ]
     }
   ],
@@ -251,11 +347,23 @@
       "answer": "Answer3",
       "isAnswered": false,
       "pool": [
-        { "question": "Row4 Cell2 Question1", "answer": "Row4 Cell2 Answer1" },
-        { "question": "Row4 Cell2 Question2", "answer": "Row4 Cell2 Answer2" },
-        { "question": "Row4 Cell2 Question3", "answer": "Row4 Cell2 Answer3" },
-        { "question": "Row4 Cell2 Question4", "answer": "Row4 Cell2 Answer4" },
-        { "question": "Row4 Cell2 Question5", "answer": "Row4 Cell2 Answer5" }
+        {
+          "question": "What is the max casting range of The Burning Head?",
+          "answer": "150."
+        },
+        {
+          "question": "What is the active time of Cascading Fire Cloak?",
+          "answer": "19."
+        },
+        {
+          "question": "What is the recharge time of Final Transmutation?",
+          "answer": "54."
+        },
+        { "question": "What is the casting time of Tempest?", "answer": "3." },
+        {
+          "question": "What is the recharge time of Wind Blast?",
+          "answer": "32."
+        }
       ]
     },
     {
@@ -279,11 +387,20 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Row4 Cell5 Question1", "answer": "Row4 Cell5 Answer1" },
-        { "question": "Row4 Cell5 Question2", "answer": "Row4 Cell5 Answer2" },
-        { "question": "Row4 Cell5 Question3", "answer": "Row4 Cell5 Answer3" },
-        { "question": "Row4 Cell5 Question4", "answer": "Row4 Cell5 Answer4" },
-        { "question": "Row4 Cell5 Question5", "answer": "Row4 Cell5 Answer5" }
+        {
+          "question": "Who won Freshly Chosen #1?",
+          "answer": "PrussianPrince."
+        },
+        {
+          "question": "Who won Freshly Chosen #2?",
+          "answer": "Alfredino."
+        },
+        { "question": "Who won Enslavers Cup?", "answer": "Evenstar." },
+        { "question": "Who won Blind Man's Cup?", "answer": "Xiphos." },
+        {
+          "question": "Who won Land of the Living Flash #1?",
+          "answer": "Fisstech."
+        }
       ]
     }
   ],
@@ -323,11 +440,26 @@
       "answer": "Answer3",
       "isAnswered": false,
       "pool": [
-        { "question": "Row5 Cell3 Question1", "answer": "Row5 Cell3 Answer1" },
-        { "question": "Row5 Cell3 Question2", "answer": "Row5 Cell3 Answer2" },
-        { "question": "Row5 Cell3 Question3", "answer": "Row5 Cell3 Answer3" },
-        { "question": "Row5 Cell3 Question4", "answer": "Row5 Cell3 Answer4" },
-        { "question": "Row5 Cell3 Question5", "answer": "Row5 Cell3 Answer5" }
+        {
+          "question": "What is the projectile range and projectile base damage of Searing Doom?",
+          "answer": "40 and 24, respectively."
+        },
+        {
+          "question": "What stats does Cascading Fire Cloak increase, and by how much?",
+          "answer": "Melee armour piercing damage by 25%, and melee defence by 24."
+        },
+        {
+          "question": "What does Doom & Darkness Upgraded do, and for how long?",
+          "answer": "Doom & Darkness Upgraded decreases morale by 16 for 36 seconds."
+        },
+        {
+          "question": "What does Hand of Glory Upgraded do, and for how long?",
+          "answer": "Hand of Glory Upgraded increases melee attack by 24, and reload skill by 60 for 29 seconds."
+        },
+        {
+          "question": "What does Birona's Timewarp do, and for how long?",
+          "answer": "Birona's Timewarp increases speed by 24% and melee attack by 24 for 50 seconds."
+        }
       ]
     },
     {
@@ -351,11 +483,17 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Row5 Cell5 Question1", "answer": "Row5 Cell5 Answer1" },
-        { "question": "Row5 Cell5 Question2", "answer": "Row5 Cell5 Answer2" },
-        { "question": "Row5 Cell5 Question3", "answer": "Row5 Cell5 Answer3" },
-        { "question": "Row5 Cell5 Question4", "answer": "Row5 Cell5 Answer4" },
-        { "question": "Row5 Cell5 Question5", "answer": "Row5 Cell5 Answer5" }
+        { "question": "Who won Fresh Recruit #1?", "answer": "MystEque." },
+        { "question": "Who won Fresh Recruit #6?", "answer": "Pacta." },
+        {
+          "question": "Who won Fresh Recruit #10?",
+          "answer": "Noob for Life."
+        },
+        {
+          "question": "Who won Fresh Recruit #12?",
+          "answer": "Papa Palpatine."
+        },
+        { "question": "Who won Fresh Recruit #3?", "answer": "Geraldo." }
       ]
     }
   ]
