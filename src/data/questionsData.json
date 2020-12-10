@@ -11,10 +11,19 @@
           "question": "Which non-unbreakable lord has the highest leadership?",
           "answer": "Sigvald."
         },
-        { "question": "Row1 Cell1 Question2", "answer": "Row1 Cell1 Answer2" },
-        { "question": "Row1 Cell1 Question3", "answer": "Row1 Cell1 Answer3" },
-        { "question": "Row1 Cell1 Question4", "answer": "Row1 Cell1 Answer4" },
-        { "question": "Row1 Cell1 Question5", "answer": "Row1 Cell1 Answer5" }
+        {
+          "question": "What is the melee defence of Fay Enchantress?",
+          "answer": "34."
+        },
+        {
+          "question": "What is the cost of Gotrek without any abilities and items?",
+          "answer": "1200."
+        },
+        {
+          "question": "What is the model count of Syreens on large unit size?",
+          "answer": "45."
+        },
+        { "question": "What is the speed of Empire Knights?", "answer": "66." }
       ]
     },
     {
@@ -28,10 +37,22 @@
           "question": "Which stats does Grimgor affect with 'You're Next!'?",
           "answer": "Melee attack, speed and melee defense."
         },
-        { "question": "Row1 Cell2 Question2", "answer": "Row1 Cell2 Answer2" },
-        { "question": "Row1 Cell2 Question3", "answer": "Row1 Cell2 Answer3" },
-        { "question": "Row1 Cell2 Question4", "answer": "Row1 Cell2 Answer4" },
-        { "question": "Row1 Cell2 Question5", "answer": "Row1 Cell2 Answer5" }
+        {
+          "question": "What do the Slann, Mazdamundi, Lord Kroak, Teclis, Morathi and Ariel have in common?",
+          "answer": "Greater Arcane Conduit."
+        },
+        {
+          "question": "What stats does Stand Your Ground affect?",
+          "answer": "Melee defence and leadership."
+        },
+        {
+          "question": "What stats does Foe Seeker affect?",
+          "answer": "Speed and vigour."
+        },
+        {
+          "question": "What does Guardian do?",
+          "answer": "Guardian provides physical resistance in an Area of Effect to other lords and heroes."
+        }
       ]
     },
     {
@@ -70,11 +91,26 @@
       "answer": "Answer4",
       "isAnswered": false,
       "pool": [
-        { "question": "Row1 Cell4 Question1", "answer": "Row1 Cell4 Answer1" },
-        { "question": "Row1 Cell4 Question2", "answer": "Row1 Cell4 Answer2" },
-        { "question": "Row1 Cell4 Question3", "answer": "Row1 Cell4 Answer3" },
-        { "question": "Row1 Cell4 Question4", "answer": "Row1 Cell4 Answer4" },
-        { "question": "Row1 Cell4 Question5", "answer": "Row1 Cell4 Answer5" }
+        {
+          "question": "What is the name of Khatep's item?",
+          "answer": "The Liche Staff."
+        },
+        {
+          "question": "What is the name of Balthasar Gelt's item?",
+          "answer": "Staff of Volans."
+        },
+        {
+          "question": "What is the name of Felix's item?",
+          "answer": "Karaghul."
+        },
+        {
+          "question": "What does Stave of Ruinous Corruption do?",
+          "answer": "Stave of Ruinous corruption spawns a unit of Chaos Spawn."
+        },
+        {
+          "question": "Who has the Chalice of Potions item?",
+          "answer": "Fay Enchantress."
+        }
       ]
     },
     {
@@ -115,11 +151,20 @@
       "answer": "Answer1",
       "isAnswered": false,
       "pool": [
-        { "question": "Row2 Cell1 Question1", "answer": "Row2 Cell1 Answer1" },
-        { "question": "Row2 Cell1 Question2", "answer": "Row2 Cell1 Answer2" },
-        { "question": "Row2 Cell1 Question3", "answer": "Row2 Cell1 Answer3" },
-        { "question": "Row2 Cell1 Question4", "answer": "Row2 Cell1 Answer4" },
-        { "question": "Row2 Cell1 Question5", "answer": "Row2 Cell1 Answer5" }
+        { "question": "What is the armour of Rogue Idol?", "answer": "150." },
+        {
+          "question": "What is the melee defence of Grail Guardians?",
+          "answer": "56."
+        },
+        { "question": "What is the range of Waywatchers?", "answer": "190." },
+        {
+          "question": "How many hit points does Hell Pit Abomination have?",
+          "answer": "9075."
+        },
+        {
+          "question": "How many hit points does Dread Saurian have?",
+          "answer": "11316."
+        }
       ]
     },
     {
@@ -129,11 +174,26 @@
       "answer": "Answer2",
       "isAnswered": false,
       "pool": [
-        { "question": "Row2 Cell2 Question1", "answer": "Row2 Cell2 Answer1" },
-        { "question": "Row2 Cell2 Question2", "answer": "Row2 Cell2 Answer2" },
-        { "question": "Row2 Cell2 Question3", "answer": "Row2 Cell2 Answer3" },
-        { "question": "Row2 Cell2 Question4", "answer": "Row2 Cell2 Answer4" },
-        { "question": "Row2 Cell2 Question5", "answer": "Row2 Cell2 Answer5" }
+        {
+          "question": "What does Star of Avelorn do, and how many units can it affect?",
+          "answer": "Star of Avelorn restores hit points, and up to 3 units can be affected."
+        },
+        {
+          "question": "What does the ability Mist of the Lady of Fay Enchantress do?",
+          "answer": "It reduces melee attack and causes damage to enemy units. Both effects are applied in an Area of Effect to enemy units."
+        },
+        {
+          "question": "What stats does Deadly Onslaught increase?",
+          "answer": "Armour piercing weapon damage, base weapon damage and charge bonus."
+        },
+        {
+          "question": "What does Murderous Prowess do?",
+          "answer": "Murderous Prowess increases charge bonus, melee attack, armour piercing missile damage, leadership and vigour."
+        },
+        {
+          "question": "What does Martial Prowess do?",
+          "answer": "Martial Prowess increases melee attack and melee defence."
+        }
       ]
     },
     {
@@ -166,11 +226,26 @@
       "answer": "Answer4",
       "isAnswered": false,
       "pool": [
-        { "question": "Row2 Cell4 Question1", "answer": "Row2 Cell4 Answer1" },
-        { "question": "Row2 Cell4 Question2", "answer": "Row2 Cell4 Answer2" },
-        { "question": "Row2 Cell4 Question3", "answer": "Row2 Cell4 Answer3" },
-        { "question": "Row2 Cell4 Question4", "answer": "Row2 Cell4 Answer4" },
-        { "question": "Row2 Cell4 Question5", "answer": "Row2 Cell4 Answer5" }
+        {
+          "question": "How many seconds does The Wintertooth Crown last?",
+          "answer": "24 seconds."
+        },
+        {
+          "question": "Does Tiktaq'to's Mask of Heavens work when he is on the ground?",
+          "answer": "Yes."
+        },
+        {
+          "question": "What stats does The Sword of Couronne affect and how? ",
+          "answer": "The Sword of Couronne decreases melee defence and armour of enemy units in an Area of Effect."
+        },
+        {
+          "question": "What stats does Heartrender & the Darksword affect and how?",
+          "answer": "Heartrender & the Darksword decreases melee defence and melee attack of enemy units in an Area of Effect."
+        },
+        {
+          "question": "What does Captain Roth's Moondial do?",
+          "answer": "Captain Roth's Moondial spawns a unit of Zombie Pirate Deckhands Mob."
+        }
       ]
     },
     {
@@ -209,24 +284,24 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "",
-          "answer": ""
+          "question": "What is the charge bonus of Bastiladon (Solar Engine)?",
+          "answer": "34."
         },
         {
-          "question": "",
-          "answer": ""
+          "question": "What is the cost of Colossadon Hunters (Ripperdactyl Riders)?",
+          "answer": "1500."
         },
         {
-          "question": "",
-          "answer": ""
+          "question": "What is the model count of Lothern Sea Guard on large unit size?",
+          "answer": "68."
         },
         {
-          "question": "",
-          "answer": ""
+          "question": "What is the armour piercing weapon damage of The Fireborn (Dragon Princes)?",
+          "answer": "13."
         },
         {
-          "question": "",
-          "answer": ""
+          "question": "What kind of shield do Glade Riders (Spears) have?",
+          "answer": "Bronze."
         }
       ]
     },
@@ -237,11 +312,26 @@
       "answer": "Answer2",
       "isAnswered": false,
       "pool": [
-        { "question": "Row3 Cell2 Question1", "answer": "Row3 Cell2 Answer1" },
-        { "question": "Row3 Cell2 Question2", "answer": "Row3 Cell2 Answer2" },
-        { "question": "Row3 Cell2 Question3", "answer": "Row3 Cell2 Answer3" },
-        { "question": "Row3 Cell2 Question4", "answer": "Row3 Cell2 Answer4" },
-        { "question": "Row3 Cell2 Question5", "answer": "Row3 Cell2 Answer5" }
+        {
+          "question": "What abilities can be selected for Settra The Imperishable?",
+          "answer": "The Curse, The Restless Dead, Unyielding Will, Wrath of Ptra."
+        },
+        {
+          "question": "What does Witchbrew do?",
+          "answer": "Witchbrew increases base weapon damage, melee attack, armour piercing weapon damage and causes rampage."
+        },
+        {
+          "question": "What does Enrage do?",
+          "answer": "Enrage increases damage resistance."
+        },
+        {
+          "question": "What does Primal Instincts do?",
+          "answer": "Primal Instincts increases charge bonus and melee attack and also causes rampage."
+        },
+        {
+          "question": "What does Ruinous Flesh do?",
+          "answer": "Ruinous Flesh increases missile resistance and armour in an Area of Effect."
+        }
       ]
     },
     {
@@ -280,11 +370,26 @@
       "answer": "Answer4",
       "isAnswered": false,
       "pool": [
-        { "question": "Row3 Cell4 Question1", "answer": "Row3 Cell4 Answer1" },
-        { "question": "Row3 Cell4 Question2", "answer": "Row3 Cell4 Answer2" },
-        { "question": "Row3 Cell4 Question3", "answer": "Row3 Cell4 Answer3" },
-        { "question": "Row3 Cell4 Question4", "answer": "Row3 Cell4 Answer4" },
-        { "question": "Row3 Cell4 Question5", "answer": "Row3 Cell4 Answer5" }
+        {
+          "question": "How does Durthu's Sword of Daith work?",
+          "answer": "It decreases armour by 30 and causes damage to enemy units in an Area of Effect."
+        },
+        {
+          "question": "How does Repanse's The Sword of Lyonesse work?",
+          "answer": "The Sword of Lyonesse increases base weapon damage by 50%, armour piercing weapon damage by 50% and melee attack by 40."
+        },
+        {
+          "question": "What stats does Wulfrik the Wanderer's Sword of Torgald affect and what is the duration?",
+          "answer": "Sword of Torgald increases base weapon damage by 90% for 44 seconds."
+        },
+        {
+          "question": "How does Flaming Axe of Cormac work?",
+          "answer": "Flaming Axe of Cormac imbues fire damage, increases base weapon damage by 22% and melee attack by 9. It's disabled if leadership is lower than 50%."
+        },
+        {
+          "question": "What are the effects and duration of Skull Wand of Kaloth?",
+          "answer": "Skull Wand of Kaloth increases base weapon damage by 60%, melee attack by 24, and imbues -16 leadership for 10 seconds. The duration is 27 seconds."
+        }
       ]
     },
     {
@@ -319,11 +424,23 @@
       "answer": "Answer1",
       "isAnswered": false,
       "pool": [
-        { "question": "Row4 Cell1 Question1", "answer": "Row4 Cell1 Answer1" },
-        { "question": "Row4 Cell1 Question2", "answer": "Row4 Cell1 Answer2" },
-        { "question": "Row4 Cell1 Question3", "answer": "Row4 Cell1 Answer3" },
-        { "question": "Row4 Cell1 Question4", "answer": "Row4 Cell1 Answer4" },
-        { "question": "Row4 Cell1 Question5", "answer": "Row4 Cell1 Answer5" }
+        {
+          "question": "What is the ammunition of Blessed Field Trebuchets?",
+          "answer": "25."
+        },
+        {
+          "question": "What is the armor piercing damage of Royal Hyppogryph Knights?",
+          "answer": "100."
+        },
+        { "question": "What is the leadership of Hammerers?", "answer": "80." },
+        {
+          "question": "What is the range of Master Engineer?",
+          "answer": "180."
+        },
+        {
+          "question": "What is the charge bonus of Casket of Souls?",
+          "answer": "8."
+        }
       ]
     },
     {
@@ -333,11 +450,26 @@
       "answer": "Answer2",
       "isAnswered": false,
       "pool": [
-        { "question": "Row4 Cell2 Question1", "answer": "Row4 Cell2 Answer1" },
-        { "question": "Row4 Cell2 Question2", "answer": "Row4 Cell2 Answer2" },
-        { "question": "Row4 Cell2 Question3", "answer": "Row4 Cell2 Answer3" },
-        { "question": "Row4 Cell2 Question4", "answer": "Row4 Cell2 Answer4" },
-        { "question": "Row4 Cell2 Question5", "answer": "Row4 Cell2 Answer5" }
+        {
+          "question": "What stats does Stone Shaper affect and how?",
+          "answer": "Stone Shaper increases missile resistance and armour in an Area of Effect, for units that are constructs."
+        },
+        {
+          "question": "What does Curse of Khsar affect, and by how much?",
+          "answer": "Curse of Khsar reduces armor of enemy units by 60 in an Area of Effect."
+        },
+        {
+          "question": "What abilities can be selected for High Beastmaster?",
+          "answer": "Beastslaver, Stand Your Ground and Whiplash."
+        },
+        {
+          "question": "What abilities can be selected for Kroq-Gar?",
+          "answer": "Sacred Spawning of Xhotl, Deadly Onslaught and Switfness of Itzl."
+        },
+        {
+          "question": "What abilities can be selected for Huntsman General?",
+          "answer": "Oil Flask, Hail of Fire and Arrow of Aqshy."
+        }
       ]
     },
     {
@@ -373,11 +505,26 @@
       "answer": "Answer4",
       "isAnswered": false,
       "pool": [
-        { "question": "Row4 Cell3 Question1", "answer": "Row4 Cell3 Answer1" },
-        { "question": "Row4 Cell3 Question2", "answer": "Row4 Cell3 Answer2" },
-        { "question": "Row4 Cell3 Question3", "answer": "Row4 Cell3 Answer3" },
-        { "question": "Row4 Cell3 Question4", "answer": "Row4 Cell3 Answer4" },
-        { "question": "Row4 Cell3 Question5", "answer": "Row4 Cell3 Answer5" }
+        {
+          "question": "Which Lizardmen lords are always immune to psychology?",
+          "answer": "Gor-Rok and Lord Mazdamundi."
+        },
+        {
+          "question": "Which Beastmen lords have items that affect either leadership or damage resistance?",
+          "answer": "Malagor the Dark Omen, Khazrak the One-Eye and Beastlord."
+        },
+        {
+          "question": "Which Dwarf lords have items that affect melee attack?",
+          "answer": "Thorgrim Grudgebearer, Belegar Ironhammer and Lord."
+        },
+        {
+          "question": "Which High Elf legendary lords have items that affect hit points?",
+          "answer": "Alarielle the Radiant and Tyrion."
+        },
+        {
+          "question": "How does Bonewood Staff trigger?",
+          "answer": "Bonewood Staff triggers when activating a spell."
+        }
       ]
     },
     {
@@ -412,11 +559,23 @@
       "answer": "Answer1",
       "isAnswered": false,
       "pool": [
-        { "question": "Row5 Cell1 Question1", "answer": "Row5 Cell1 Answer1" },
-        { "question": "Row5 Cell1 Question2", "answer": "Row5 Cell1 Answer2" },
-        { "question": "Row5 Cell1 Question3", "answer": "Row5 Cell1 Answer3" },
-        { "question": "Row5 Cell1 Question4", "answer": "Row5 Cell1 Answer4" },
-        { "question": "Row5 Cell1 Question5", "answer": "Row5 Cell1 Answer5" }
+        { "question": "What is the speed of Carronades?", "answer": "20." },
+        {
+          "question": "What is the armor piercing weapon damage of Bloated Corpse?",
+          "answer": "300."
+        },
+        {
+          "question": "What is the leadership of The Bloody Reaver Deck Guard (Depth Guard)?",
+          "answer": "70."
+        },
+        {
+          "question": "What is the melee defence of The Direpack (Dire Wolves)?",
+          "answer": "19."
+        },
+        {
+          "question": "What is the charge bonus of Warp Lightning Cannons?",
+          "answer": "2."
+        }
       ]
     },
     {
@@ -426,11 +585,26 @@
       "answer": "Answer2",
       "isAnswered": false,
       "pool": [
-        { "question": "Row5 Cell2 Question1", "answer": "Row5 Cell2 Answer1" },
-        { "question": "Row5 Cell2 Question2", "answer": "Row5 Cell2 Answer2" },
-        { "question": "Row5 Cell2 Question3", "answer": "Row5 Cell2 Answer3" },
-        { "question": "Row5 Cell2 Question4", "answer": "Row5 Cell2 Answer4" },
-        { "question": "Row5 Cell2 Question5", "answer": "Row5 Cell2 Answer5" }
+        {
+          "question": "How many phases are there for the Rage unit ability, and what effects does each phase have?",
+          "answer": "Stage 1 increases leadership, stage 2 increases leadership and physical resistance, and stage 3 increases leadership, physical resistance and melee attack."
+        },
+        {
+          "question": "What stats does Bestial Surge affect and how?",
+          "answer": "Bestial Surge increases charge bonus and vigour map-wide, while casting."
+        },
+        {
+          "question": "What stats does Felix's Helping Hand increase, and by how much?",
+          "answer": "Helping Hand increases melee attack by 40 and damage resistance by 44%."
+        },
+        {
+          "question": "What stat does Strigoi Ghoul King's Blood Lust ability affect, by how much and for how long?",
+          "answer": "Blood Lust increases armour piercing weapon damage by 25% for 33 seconds."
+        },
+        {
+          "question": "What are the exact effects of Frenzy?",
+          "answer": "Frenzy increases melee attack by 8, charge bonus by 8%, base weapon damage by 15% and makes the unit immune to psychology."
+        }
       ]
     },
     {
@@ -469,11 +643,26 @@
       "answer": "Answer4",
       "isAnswered": false,
       "pool": [
-        { "question": "Row5 Cell4 Question1", "answer": "Row5 Cell4 Answer1" },
-        { "question": "Row5 Cell4 Question2", "answer": "Row5 Cell4 Answer2" },
-        { "question": "Row5 Cell4 Question3", "answer": "Row5 Cell4 Answer3" },
-        { "question": "Row5 Cell4 Question4", "answer": "Row5 Cell4 Answer4" },
-        { "question": "Row5 Cell4 Question5", "answer": "Row5 Cell4 Answer5" }
+        {
+          "question": "What are the exact effects of Skavenbrew and what is the duration?",
+          "answer": "Skavenbrew increases increases melee attack, base weapon damage, decreases armour and makes the unit immune to psychology. The duration is 47 seconds."
+        },
+        {
+          "question": "What are the exact effects of Shadow Magnet Trinket and how does it work?",
+          "answer": "Shadow Magnet Trinket increases missile parry by 12 in an Area of Effect."
+        },
+        {
+          "question": "What are the exact effects of Warp-Shard Armor and how does it work?",
+          "answer": "Warp-Shard Armor decreases armour by 23 and melee defence by 5 in an Area of Effect."
+        },
+        {
+          "question": "What are the exact effects of Banner of the Hunter King and how does it work?",
+          "answer": "Banner of the Hunter King increases melee attack by 5, charge bonus by 8% and causes fear in an Area of Effect."
+        },
+        {
+          "question": "What are the exact effects of Star Lance and how does it work?",
+          "answer": "Star Lance imbues fire damage and flammable (22% weakness to fire damage), increases armour piercing weapon damage by 25%, charge speed by 20% and charge bonus by 50%."
+        }
       ]
     },
     {
