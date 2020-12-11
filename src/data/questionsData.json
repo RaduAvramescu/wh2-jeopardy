@@ -170,7 +170,7 @@
       "pool": [
         {
           "question": "What does Star of Avelorn do, and how many units can it affect?",
-          "answer": "Star of Avelorn restores hit points, and up to 3 units can be affected."
+          "answer": "Star of Avelorn restores hit points, and up to 3 allied units can be affected."
         },
         {
           "question": "What does the ability Mist of the Lady of Fay Enchantress do?",
@@ -227,7 +227,7 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "How many seconds does The Wintertooth Crown last?",
+          "question": "How many seconds does The Wintertooth Crown last for?",
           "answer": "24 seconds."
         },
         {
@@ -288,8 +288,8 @@
           "answer": "34."
         },
         {
-          "question": "What is the cost of Colossadon Hunters (Ripperdactyl Riders)?",
-          "answer": "1500."
+          "question": "What is the speed of Colossadon Hunters (Ripperdactyl Riders)?",
+          "answer": "90."
         },
         {
           "question": "What is the model count of Lothern Sea Guard on large unit size?",
@@ -317,8 +317,8 @@
           "answer": "The Curse, The Restless Dead, Unyielding Will, Wrath of Ptra."
         },
         {
-          "question": "What does Witchbrew do?",
-          "answer": "Witchbrew increases base weapon damage, melee attack, armour piercing weapon damage and causes rampage."
+          "question": "What does Red Ruin do?",
+          "answer": "Red Ruin increases base weapon damage, armour piercing damage and decreases melee defence."
         },
         {
           "question": "What does Enrage do?",
@@ -342,24 +342,24 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "What is the projectile base damage of Fireball Upgraded?",
-          "answer": "350."
+          "question": "What is the projectile range of Searing Doom?",
+          "answer": "40."
         },
         {
-          "question": "What is the projectile armour piercing damage of Shem's Burning Gaze?",
-          "answer": "50."
+          "question": "What stats does Cascading Fire Cloak increase, and by how much?",
+          "answer": "Melee armour piercing damage by 25%, and melee defence by 24."
         },
         {
-          "question": "What is the projectile base damage of Vindictive Glare?",
-          "answer": "65."
+          "question": "What are the exact effects of Doom & Darkness Upgraded?",
+          "answer": "Doom & Darkness Upgraded decreases morale by 16."
         },
         {
-          "question": "What is the projectile base damage of The Amber Spear?",
-          "answer": "150."
+          "question": "What are the exact effects of Hand of Glory Upgraded?",
+          "answer": "Hand of Glory Upgraded increases melee attack by 24, and reload skill by 60."
         },
         {
-          "question": "Which spell cannot miscast when overcast?",
-          "answer": "The Dreaded Thirteenth."
+          "question": "What are the exact effects of Birona's Timewarp?",
+          "answer": "Birona's Timewarp increases speed by 24% and melee attack by 24."
         }
       ]
     },
@@ -379,7 +379,7 @@
           "answer": "The Sword of Lyonesse increases base weapon damage by 50%, armour piercing weapon damage by 50% and melee attack by 40."
         },
         {
-          "question": "What are teh exact effects of Wulfrik the Wanderer's Sword of Torgald?",
+          "question": "What are the exact effects of Wulfrik the Wanderer's Sword of Torgald?",
           "answer": "Sword of Torgald increases base weapon damage by 90%."
         },
         {
@@ -535,18 +535,24 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "Who won Freshly Chosen #1?",
-          "answer": "PrussianPrince."
+          "question": "Who won Everchosen Invitational 7 Qualifier #1?",
+          "answer": "Guacc."
         },
         {
-          "question": "Who won Freshly Chosen #2?",
-          "answer": "Alfredino."
+          "question": "Who won Everchosen Invitational 7 Qualifier #2?",
+          "answer": "Felkon."
         },
-        { "question": "Who won Enslavers Cup?", "answer": "Evenstar." },
-        { "question": "Who won Blind Man's Cup?", "answer": "Xiphos." },
         {
-          "question": "Who won Land of the Living Flash #1?",
+          "question": "Who won Everchosen Invitational 7 Qualifier #3?",
+          "answer": "Evenstar."
+        },
+        {
+          "question": "Who won Everchosen Invitational 7 Qualifier #4?",
           "answer": "Fisstech."
+        },
+        {
+          "question": "Who won Salad Cup 9: No Nehek November?",
+          "answer": "Valkonos."
         }
       ]
     }
@@ -586,7 +592,7 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "How many phases are there for the Rage unit ability, and what exact effects does each phase have?",
+          "question": "How many phases are there for the Rage unit ability, and what effects does each phase have?",
           "answer": "Stage 1 increases leadership, stage 2 increases leadership and physical resistance, and stage 3 increases leadership, physical resistance and melee attack."
         },
         {
@@ -615,24 +621,24 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "What is the projectile range and projectile base damage of Searing Doom?",
-          "answer": "40 and 24, respectively."
+          "question": "What is the projectile base damage of Fireball Upgraded?",
+          "answer": "350."
         },
         {
-          "question": "What stats does Cascading Fire Cloak increase, and by how much?",
-          "answer": "Melee armour piercing damage by 25%, and melee defence by 24."
+          "question": "What is the projectile armour piercing damage of Shem's Burning Gaze?",
+          "answer": "50."
         },
         {
-          "question": "What does Doom & Darkness Upgraded do, and for how long?",
-          "answer": "Doom & Darkness Upgraded decreases morale by 16 for 36 seconds."
+          "question": "What is the projectile base damage of Vindictive Glare?",
+          "answer": "65."
         },
         {
-          "question": "What does Hand of Glory Upgraded do, and for how long?",
-          "answer": "Hand of Glory Upgraded increases melee attack by 24, and reload skill by 60 for 29 seconds."
+          "question": "What is the projectile base damage of The Amber Spear?",
+          "answer": "150."
         },
         {
-          "question": "What does Birona's Timewarp do, and for how long?",
-          "answer": "Birona's Timewarp increases speed by 24% and melee attack by 24 for 50 seconds."
+          "question": "Which spell cannot miscast when overcast?",
+          "answer": "The Dreaded Thirteenth."
         }
       ]
     },
@@ -644,7 +650,7 @@
       "isAnswered": false,
       "pool": [
         {
-          "question": "What are the exact effects of Skavenbrew and what is the duration?",
+          "question": "What are the effects of Skavenbrew and what is the duration?",
           "answer": "Skavenbrew increases increases melee attack, base weapon damage, decreases armour and makes the unit immune to psychology. The duration is 47 seconds."
         },
         {
@@ -672,17 +678,20 @@
       "answer": "Answer5",
       "isAnswered": false,
       "pool": [
-        { "question": "Who won Fresh Recruit #1?", "answer": "MystEque." },
-        { "question": "Who won Fresh Recruit #6?", "answer": "Pacta." },
         {
-          "question": "Who won Fresh Recruit #10?",
-          "answer": "Noob for Life."
+          "question": "Who won Freshly Chosen #1?",
+          "answer": "PrussianPrince."
         },
         {
-          "question": "Who won Fresh Recruit #12?",
-          "answer": "Papa Palpatine."
+          "question": "Who won Freshly Chosen #2?",
+          "answer": "Alfredino."
         },
-        { "question": "Who won Fresh Recruit #3?", "answer": "Geraldo." }
+        { "question": "Who won Enslavers Cup?", "answer": "Evenstar." },
+        { "question": "Who won Blind Man's Cup?", "answer": "Xiphos." },
+        {
+          "question": "Who won Land of the Living Flash #1?",
+          "answer": "Fisstech."
+        }
       ]
     }
   ]
