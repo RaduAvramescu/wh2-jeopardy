@@ -44,7 +44,7 @@ export default class PlayerNameForm extends Component {
               </div>
               <div className="form-group col-md-12 m-2 text-center">
                 <button type="submit" className="btn btn-dark btn-lg m-2">
-                  <div className="text-responsive">SUBMIT</div>
+                  SUBMIT
                 </button>
               </div>
             </div>
