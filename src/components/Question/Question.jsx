@@ -17,7 +17,7 @@ export default class Question extends Component {
         </div>
         <div
           style={{ height: "90vh" }}
-          className="container-fluid text-responsive fade-in"
+          className="container text-responsive fade-in"
         >
           <div className="col-12 fade-in text-center mb-5 mt-5 pt-5">
             {question}
