@@ -19,13 +19,9 @@ export default class Question extends Component {
           style={{ height: "90vh" }}
           className="container text-responsive fade-in"
         >
-          <div className="col-12 fade-in text-center mb-5 mt-5 pt-5">
-            {question}
-          </div>
+          <div className="fade-in text-center mb-5 mt-5 pt-5">{question}</div>
           {showAnswer && (
-            <div className="col-12 fade-in text-center mb-5 mt-5 pt-5">
-              {answer}
-            </div>
+            <div className="fade-in text-center mb-5 mt-5 pt-5">{answer}</div>
           )}
         </div>
       </div>
